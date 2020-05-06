@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Diodes
+LastFocusedTable=Inductors
 [Table1]
 SchemaName=
 TableName=Buttons_Switches
@@ -44,9 +44,6 @@ TableName=Diodes
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Код0=42|PartNumber0=84|Library Ref0=112|Library Path0=135|Footprint Ref0=92|Footprint Path0=127|ManufacturerPartNumber0=154|Manufacturer0=104|ValueSCH0=73|ValueBOM0=77|Package0=65|ComponentLink1URL0=131|ComponentLink1Description0=170|Supplier0=66|Supplier Part Number0=133
 [Table5]
 SchemaName=
 TableName=IC-LDO
@@ -71,6 +68,9 @@ TableName=Inductors
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartNumber0=84|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|Код0=42|ManufacturerPartNumber0=154|Manufacturer0=93|ValueSCH0=73|ValueBOM0=225|Package0=65|ComponentLink1URL0=131|ComponentLink1Description0=170|Supplier0=66|Supplier Part Number0=133
 [Table9]
 SchemaName=
 TableName=Misc
