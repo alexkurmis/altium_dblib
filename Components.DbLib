@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\AltiumLibrary\altium_dblib\Components.mdb;Persist Security Info=False
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=Y:\Projects_Altium\Libraries\kurmis_dblib\Components.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=IC-Sensors
+LastFocusedTable=Res-1206-5%
 [Table1]
 SchemaName=
 TableName=Buttons_Switches
@@ -98,9 +98,6 @@ TableName=IC-Sensors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Код0=42|PartNumber0=84|Library Ref0=77|Library Path0=148|Footprint Ref0=92|Footprint Path0=128|Catalog0=63|Manufacturer0=93|Package0=65|Description0=84|Interface0=68|ComponentLink1URL0=131|ComponentLink1Description0=170|Supplier0=66|Supplier Part Number0=133
 [Table14]
 SchemaName=
 TableName=Inductors
@@ -125,13 +122,88 @@ TableName=Optoelectronics
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartNumber0=84|Library Ref0=77|Library Path0=121|Footprint Ref0=92|Footprint Path0=133|Код0=42|Color0=61|Brightness0=77|Catalog0=63|Manufacturer0=93|ValueSCH0=73|ValueBOM0=141|Package0=65|ComponentLink1URL0=302|ComponentLink1Description0=170|Supplier0=66|Supplier Part Number0=133
 [Table18]
+SchemaName=
+TableName=Res-0402-1%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=102|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=145|Supplier 10=75|Supplier Part Number 10=166|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=212|PkgCode0=69|PrefCode0=70
+[Table19]
+SchemaName=
+TableName=Res-0402-5%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=99|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=139|Supplier 10=75|Supplier Part Number 10=160|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=206|PkgCode0=69|PrefCode0=70
+[Table20]
+SchemaName=
+TableName=Res-0603-1%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=102|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=133|Supplier 10=75|Supplier Part Number 10=154|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=212|PkgCode0=69|PrefCode0=70
+[Table21]
+SchemaName=
+TableName=Res-0603-5%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=99|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=127|Supplier 10=75|Supplier Part Number 10=148|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=206|PkgCode0=69|PrefCode0=70
+[Table22]
+SchemaName=
+TableName=Res-0805-1%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=102|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=145|Supplier 10=75|Supplier Part Number 10=166|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=206|PkgCode0=69|PrefCode0=70
+[Table23]
+SchemaName=
+TableName=Res-0805-5%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=99|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=139|Supplier 10=75|Supplier Part Number 10=160|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=200|PkgCode0=69|PrefCode0=70
+[Table24]
+SchemaName=
+TableName=Res-1206-1%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=102|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=139|Supplier 10=75|Supplier Part Number 10=160|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=206|PkgCode0=69|PrefCode0=70
+[Table25]
+SchemaName=
+TableName=Res-1206-5%
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Код0=42|PartNumber0=99|Value0=52|Tolerance0=73|Tempco0=63|Power0=55|Manufacturer0=93|Manufacturer PN0=133|Supplier 10=75|Supplier Part Number 10=154|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|PCB3D Ref0=76|PCB3D Path0=82|MaxComponentHeight0=140|Description0=200|PkgCode0=69|PrefCode0=70
+[Table26]
 SchemaName=
 TableName=Resistors
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table19]
+[Table27]
 SchemaName=
 TableName=Transistors
 Enabled=True
@@ -316,26 +388,154 @@ Options=FieldName=Optoelectronics.Footprint Ref|TableNameOnly=Optoelectronics|Fi
 [FieldMap89]
 Options=FieldName=Optoelectronics.Footprint Path|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap90]
-Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.Код|TableNameOnly=Res-0402-1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap91]
-Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.Library Ref|TableNameOnly=Res-0402-1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap92]
-Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.Library Path|TableNameOnly=Res-0402-1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap93]
-Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.Footprint Ref|TableNameOnly=Res-0402-1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap94]
-Options=FieldName=Resistors.ValueSCH|TableNameOnly=Resistors|FieldNameOnly=ValueSCH|FieldType=1|ParameterName=ValueSCH|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.Footprint Path|TableNameOnly=Res-0402-1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap95]
-Options=FieldName=Resistors.PartNumber|TableNameOnly=Resistors|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.PCB3D Ref|TableNameOnly=Res-0402-1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap96]
-Options=FieldName=Transistors.PartNumber|TableNameOnly=Transistors|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.PCB3D Path|TableNameOnly=Res-0402-1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap97]
-Options=FieldName=Transistors.Library Ref|TableNameOnly=Transistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-1%.Description|TableNameOnly=Res-0402-1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap98]
-Options=FieldName=Transistors.Library Path|TableNameOnly=Transistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-5%.Код|TableNameOnly=Res-0402-5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap99]
-Options=FieldName=Transistors.Footprint Ref|TableNameOnly=Transistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-5%.Library Ref|TableNameOnly=Res-0402-5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap100]
-Options=FieldName=Transistors.Footprint Path|TableNameOnly=Transistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res-0402-5%.Library Path|TableNameOnly=Res-0402-5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap101]
+Options=FieldName=Res-0402-5%.Footprint Ref|TableNameOnly=Res-0402-5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap102]
+Options=FieldName=Res-0402-5%.Footprint Path|TableNameOnly=Res-0402-5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap103]
+Options=FieldName=Res-0402-5%.PCB3D Ref|TableNameOnly=Res-0402-5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap104]
+Options=FieldName=Res-0402-5%.PCB3D Path|TableNameOnly=Res-0402-5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap105]
+Options=FieldName=Res-0402-5%.Description|TableNameOnly=Res-0402-5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap106]
+Options=FieldName=Res-0603-1%.Код|TableNameOnly=Res-0603-1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap107]
+Options=FieldName=Res-0603-1%.Library Ref|TableNameOnly=Res-0603-1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap108]
+Options=FieldName=Res-0603-1%.Library Path|TableNameOnly=Res-0603-1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap109]
+Options=FieldName=Res-0603-1%.Footprint Ref|TableNameOnly=Res-0603-1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap110]
+Options=FieldName=Res-0603-1%.Footprint Path|TableNameOnly=Res-0603-1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap111]
+Options=FieldName=Res-0603-1%.PCB3D Ref|TableNameOnly=Res-0603-1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap112]
+Options=FieldName=Res-0603-1%.PCB3D Path|TableNameOnly=Res-0603-1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap113]
+Options=FieldName=Res-0603-1%.Description|TableNameOnly=Res-0603-1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap114]
+Options=FieldName=Res-0603-5%.Код|TableNameOnly=Res-0603-5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap115]
+Options=FieldName=Res-0603-5%.Library Ref|TableNameOnly=Res-0603-5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap116]
+Options=FieldName=Res-0603-5%.Library Path|TableNameOnly=Res-0603-5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap117]
+Options=FieldName=Res-0603-5%.Footprint Ref|TableNameOnly=Res-0603-5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap118]
+Options=FieldName=Res-0603-5%.Footprint Path|TableNameOnly=Res-0603-5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap119]
+Options=FieldName=Res-0603-5%.PCB3D Ref|TableNameOnly=Res-0603-5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap120]
+Options=FieldName=Res-0603-5%.PCB3D Path|TableNameOnly=Res-0603-5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap121]
+Options=FieldName=Res-0603-5%.Description|TableNameOnly=Res-0603-5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap122]
+Options=FieldName=Res-0805-1%.Код|TableNameOnly=Res-0805-1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap123]
+Options=FieldName=Res-0805-1%.Library Ref|TableNameOnly=Res-0805-1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap124]
+Options=FieldName=Res-0805-1%.Library Path|TableNameOnly=Res-0805-1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap125]
+Options=FieldName=Res-0805-1%.Footprint Ref|TableNameOnly=Res-0805-1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap126]
+Options=FieldName=Res-0805-1%.Footprint Path|TableNameOnly=Res-0805-1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap127]
+Options=FieldName=Res-0805-1%.PCB3D Ref|TableNameOnly=Res-0805-1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap128]
+Options=FieldName=Res-0805-1%.PCB3D Path|TableNameOnly=Res-0805-1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap129]
+Options=FieldName=Res-0805-1%.Description|TableNameOnly=Res-0805-1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap130]
+Options=FieldName=Res-0805-5%.Код|TableNameOnly=Res-0805-5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap131]
+Options=FieldName=Res-0805-5%.Library Ref|TableNameOnly=Res-0805-5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap132]
+Options=FieldName=Res-0805-5%.Library Path|TableNameOnly=Res-0805-5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap133]
+Options=FieldName=Res-0805-5%.Footprint Ref|TableNameOnly=Res-0805-5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap134]
+Options=FieldName=Res-0805-5%.Footprint Path|TableNameOnly=Res-0805-5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap135]
+Options=FieldName=Res-0805-5%.PCB3D Ref|TableNameOnly=Res-0805-5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap136]
+Options=FieldName=Res-0805-5%.PCB3D Path|TableNameOnly=Res-0805-5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap137]
+Options=FieldName=Res-0805-5%.Description|TableNameOnly=Res-0805-5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap138]
+Options=FieldName=Res-1206-1%.Код|TableNameOnly=Res-1206-1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap139]
+Options=FieldName=Res-1206-1%.Library Ref|TableNameOnly=Res-1206-1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap140]
+Options=FieldName=Res-1206-1%.Library Path|TableNameOnly=Res-1206-1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap141]
+Options=FieldName=Res-1206-1%.Footprint Ref|TableNameOnly=Res-1206-1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap142]
+Options=FieldName=Res-1206-1%.Footprint Path|TableNameOnly=Res-1206-1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap143]
+Options=FieldName=Res-1206-1%.PCB3D Ref|TableNameOnly=Res-1206-1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap144]
+Options=FieldName=Res-1206-1%.PCB3D Path|TableNameOnly=Res-1206-1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap145]
+Options=FieldName=Res-1206-1%.Description|TableNameOnly=Res-1206-1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap146]
+Options=FieldName=Res-1206-5%.Код|TableNameOnly=Res-1206-5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap147]
+Options=FieldName=Res-1206-5%.Library Ref|TableNameOnly=Res-1206-5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap148]
+Options=FieldName=Res-1206-5%.Library Path|TableNameOnly=Res-1206-5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap149]
+Options=FieldName=Res-1206-5%.Footprint Ref|TableNameOnly=Res-1206-5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap150]
+Options=FieldName=Res-1206-5%.Footprint Path|TableNameOnly=Res-1206-5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap151]
+Options=FieldName=Res-1206-5%.PCB3D Ref|TableNameOnly=Res-1206-5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap152]
+Options=FieldName=Res-1206-5%.PCB3D Path|TableNameOnly=Res-1206-5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap153]
+Options=FieldName=Res-1206-5%.Description|TableNameOnly=Res-1206-5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap154]
+Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap155]
+Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap156]
+Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap157]
+Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap158]
+Options=FieldName=Resistors.ValueSCH|TableNameOnly=Resistors|FieldNameOnly=ValueSCH|FieldType=1|ParameterName=ValueSCH|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap159]
+Options=FieldName=Resistors.PartNumber|TableNameOnly=Resistors|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap160]
+Options=FieldName=Transistors.PartNumber|TableNameOnly=Transistors|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap161]
+Options=FieldName=Transistors.Library Ref|TableNameOnly=Transistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap162]
+Options=FieldName=Transistors.Library Path|TableNameOnly=Transistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap163]
+Options=FieldName=Transistors.Footprint Ref|TableNameOnly=Transistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap164]
+Options=FieldName=Transistors.Footprint Path|TableNameOnly=Transistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap165]
 Options=FieldName=Transistors.Description|TableNameOnly=Transistors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
