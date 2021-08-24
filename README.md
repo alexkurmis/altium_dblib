@@ -5,7 +5,6 @@ Some of items were borrowed from other open source projects or repos. Some of 3D
 
 Used font "GOST type A" from Kompas-3D CAD
 
-
 Layer Usage:
 M3 - Top Document
 M4 - Bot Document
