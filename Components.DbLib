@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Transformers
+LastFocusedTable=Diodes
 [Table1]
 SchemaName=
 TableName=Buttons_Switches
@@ -50,6 +50,9 @@ TableName=Diodes
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartNumber0=84|Library Ref0=112|Library Path0=130|Footprint Ref0=114|Footprint Path0=142|Код0=42|Catalog0=63|Manufacturer0=104|ValueSCH0=73|ValueBOM0=273|Package0=65|ComponentLink1URL0=131|ComponentLink1Description0=170|Supplier0=66|Supplier Part Number0=133|Vr max0=57|If max0=53|Vf0=59
 [Table6]
 SchemaName=
 TableName=Fuses
@@ -188,9 +191,6 @@ TableName=Transformers
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Код0=42|PartNumber0=84|Library Ref0=77|Library Path0=161|Footprint Ref0=92|Footprint Path0=173|Catalog0=63|Manufacturer0=93|ComponentLink1URL0=131|ComponentLink1Description0=170|Supplier0=66|Supplier Part Number0=133
 [Table29]
 SchemaName=
 TableName=Transistors
@@ -242,15 +242,15 @@ Options=FieldName=Crystal.Footprint Ref|TableNameOnly=Crystal|FieldNameOnly=Foot
 [FieldMap22]
 Options=FieldName=Crystal.Footprint Path|TableNameOnly=Crystal|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=Diodes.PartNumber|TableNameOnly=Diodes|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap24]
 Options=FieldName=Diodes.Library Ref|TableNameOnly=Diodes|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap25]
+[FieldMap24]
 Options=FieldName=Diodes.Library Path|TableNameOnly=Diodes|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap26]
+[FieldMap25]
 Options=FieldName=Diodes.Footprint Ref|TableNameOnly=Diodes|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap27]
+[FieldMap26]
 Options=FieldName=Diodes.Footprint Path|TableNameOnly=Diodes|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Diodes.Код|TableNameOnly=Diodes|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap28]
 Options=FieldName=Fuses.PartNumber|TableNameOnly=Fuses|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap29]
