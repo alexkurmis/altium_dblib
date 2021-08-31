@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\AltiumLibrary\altium_dblib\Components.mdb;Persist Security Info=False
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=Y:\Projects_Altium\Libraries\kurmis_dblib\Components.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=IC_Opamp
+LastFocusedTable=Cap_0805
 [Table1]
 SchemaName=
 TableName=Buttons_Switches
@@ -28,176 +28,182 @@ UserWhere=0
 UserWhereText=
 [Table2]
 SchemaName=
-TableName=Capacitors
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table3]
-SchemaName=
-TableName=Connectors
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table4]
-SchemaName=
-TableName=Crystal
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table5]
-SchemaName=
-TableName=Diodes
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table6]
-SchemaName=
-TableName=Fuses
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table7]
-SchemaName=
-TableName=IC_ADC_DAC
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table8]
-SchemaName=
-TableName=IC_Interface
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table9]
-SchemaName=
-TableName=IC_LDO
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table10]
-SchemaName=
-TableName=IC_Logic
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table11]
-SchemaName=
-TableName=IC_MCU
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table12]
-SchemaName=
-TableName=IC_Memory
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table13]
-SchemaName=
-TableName=IC_Opamp
+TableName=Cap_0805
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Код0=42|PartNumber0=84|Library Ref0=85|Library Path0=146|Footprint Ref0=92|Footprint Path0=131|Catalog0=63|Manufacturer0=100|ValueSCH0=73|ValueBOM0=77|Package0=65|ComponentLink1URL0=131|ComponentLink1Description0=170|Supplier0=66|Supplier Part Number0=133
+BrowserOrder_Visible=Код0=42|PartNumber0=107|ValueSCH0=73|Max Voltage0=87|Dielectric0=70|Manufacturer0=93|Manufacturer PN0=110|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|Library Ref0=77|Library Path0=113|Footprint Ref0=92|Footprint Path0=125|MaxComponentHeight0=140|Description0=82|PkgCode0=69|PrefCode0=70|Description10=88|PkgCode10=75|PrefCode10=76
+[Table3]
+SchemaName=
+TableName=Capacitors
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table4]
+SchemaName=
+TableName=Connectors
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
+TableName=Crystal
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table6]
+SchemaName=
+TableName=Diodes
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table7]
+SchemaName=
+TableName=Fuses
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table8]
+SchemaName=
+TableName=IC_ADC_DAC
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table9]
+SchemaName=
+TableName=IC_Interface
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table10]
+SchemaName=
+TableName=IC_LDO
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table11]
+SchemaName=
+TableName=IC_Logic
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table12]
+SchemaName=
+TableName=IC_MCU
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table13]
+SchemaName=
+TableName=IC_Memory
+Enabled=True
+UserWhere=0
+UserWhereText=
 [Table14]
 SchemaName=
-TableName=IC_PWR
+TableName=IC_Opamp
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table15]
 SchemaName=
-TableName=IC_Sensors
+TableName=IC_PWR
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table16]
 SchemaName=
-TableName=Inductors
+TableName=IC_Sensors
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table17]
 SchemaName=
-TableName=Misc
+TableName=Inductors
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table18]
 SchemaName=
-TableName=Modules
+TableName=Misc
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table19]
 SchemaName=
-TableName=Optoelectronics
+TableName=Modules
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table20]
 SchemaName=
-TableName=Res_0402_1%
+TableName=Optoelectronics
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table21]
 SchemaName=
-TableName=Res_0402_5%
+TableName=Res_0402_1%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table22]
 SchemaName=
-TableName=Res_0603_1%
+TableName=Res_0402_5%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table23]
 SchemaName=
-TableName=Res_0603_5%
+TableName=Res_0603_1%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table24]
 SchemaName=
-TableName=Res_0805_1%
+TableName=Res_0603_5%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table25]
 SchemaName=
-TableName=Res_0805_5%
+TableName=Res_0805_1%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table26]
 SchemaName=
-TableName=Res_1206_1%
+TableName=Res_0805_5%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table27]
 SchemaName=
-TableName=Res_1206_5%
+TableName=Res_1206_1%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table28]
 SchemaName=
-TableName=Resistors
+TableName=Res_1206_5%
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table29]
 SchemaName=
-TableName=Transformers
+TableName=Resistors
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table30]
+SchemaName=
+TableName=Transformers
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table31]
 SchemaName=
 TableName=Transistors
 Enabled=True
@@ -216,350 +222,362 @@ Options=FieldName=Buttons_Switches.ValueSCH|TableNameOnly=Buttons_Switches|Field
 [FieldMap6]
 Options=FieldName=Buttons_Switches.Код|TableNameOnly=Buttons_Switches|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=Capacitors.Library Ref|TableNameOnly=Capacitors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Cap_0805.Код|TableNameOnly=Cap_0805|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=Capacitors.Library Path|TableNameOnly=Capacitors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Cap_0805.Library Ref|TableNameOnly=Cap_0805|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=Capacitors.Footprint Ref|TableNameOnly=Capacitors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Cap_0805.Library Path|TableNameOnly=Cap_0805|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=Capacitors.Footprint Path|TableNameOnly=Capacitors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Cap_0805.Footprint Ref|TableNameOnly=Cap_0805|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=Capacitors.Description|TableNameOnly=Capacitors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Cap_0805.Footprint Path|TableNameOnly=Cap_0805|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=Capacitors.Код|TableNameOnly=Capacitors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Cap_0805.Description|TableNameOnly=Cap_0805|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=Connectors.Library Ref|TableNameOnly=Connectors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Library Ref|TableNameOnly=Capacitors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=Connectors.Library Path|TableNameOnly=Connectors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Library Path|TableNameOnly=Capacitors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=Connectors.Footprint Ref|TableNameOnly=Connectors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Footprint Ref|TableNameOnly=Capacitors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Connectors.Footprint Path|TableNameOnly=Connectors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Footprint Path|TableNameOnly=Capacitors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=Connectors.Код|TableNameOnly=Connectors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Description|TableNameOnly=Capacitors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=Crystal.Library Ref|TableNameOnly=Crystal|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Код|TableNameOnly=Capacitors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=Crystal.Library Path|TableNameOnly=Crystal|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors.Library Ref|TableNameOnly=Connectors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=Crystal.Footprint Ref|TableNameOnly=Crystal|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors.Library Path|TableNameOnly=Connectors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=Crystal.Footprint Path|TableNameOnly=Crystal|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors.Footprint Ref|TableNameOnly=Connectors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=Crystal.Код|TableNameOnly=Crystal|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors.Footprint Path|TableNameOnly=Connectors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=Diodes.Library Ref|TableNameOnly=Diodes|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors.Код|TableNameOnly=Connectors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=Diodes.Library Path|TableNameOnly=Diodes|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal.Library Ref|TableNameOnly=Crystal|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
-Options=FieldName=Diodes.Footprint Ref|TableNameOnly=Diodes|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal.Library Path|TableNameOnly=Crystal|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
-Options=FieldName=Diodes.Footprint Path|TableNameOnly=Diodes|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal.Footprint Ref|TableNameOnly=Crystal|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
-Options=FieldName=Diodes.Код|TableNameOnly=Diodes|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal.Footprint Path|TableNameOnly=Crystal|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap28]
-Options=FieldName=Fuses.Library Ref|TableNameOnly=Fuses|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal.Код|TableNameOnly=Crystal|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap29]
-Options=FieldName=Fuses.Library Path|TableNameOnly=Fuses|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Library Ref|TableNameOnly=Diodes|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap30]
-Options=FieldName=Fuses.Footprint Ref|TableNameOnly=Fuses|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Library Path|TableNameOnly=Diodes|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap31]
-Options=FieldName=Fuses.Footprint Path|TableNameOnly=Fuses|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Footprint Ref|TableNameOnly=Diodes|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap32]
-Options=FieldName=Fuses.Код|TableNameOnly=Fuses|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Footprint Path|TableNameOnly=Diodes|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap33]
-Options=FieldName=IC_ADC_DAC.Код|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Код|TableNameOnly=Diodes|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap34]
-Options=FieldName=IC_ADC_DAC.Library Ref|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuses.Library Ref|TableNameOnly=Fuses|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap35]
-Options=FieldName=IC_ADC_DAC.Library Path|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuses.Library Path|TableNameOnly=Fuses|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap36]
-Options=FieldName=IC_ADC_DAC.Footprint Ref|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuses.Footprint Ref|TableNameOnly=Fuses|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap37]
-Options=FieldName=IC_ADC_DAC.Footprint Path|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuses.Footprint Path|TableNameOnly=Fuses|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap38]
-Options=FieldName=IC_Interface.Код|TableNameOnly=IC_Interface|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuses.Код|TableNameOnly=Fuses|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
-Options=FieldName=IC_Interface.Library Ref|TableNameOnly=IC_Interface|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_ADC_DAC.Код|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap40]
-Options=FieldName=IC_Interface.Library Path|TableNameOnly=IC_Interface|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_ADC_DAC.Library Ref|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=IC_Interface.Footprint Ref|TableNameOnly=IC_Interface|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_ADC_DAC.Library Path|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=IC_Interface.Footprint Path|TableNameOnly=IC_Interface|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_ADC_DAC.Footprint Ref|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=IC_LDO.Код|TableNameOnly=IC_LDO|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_ADC_DAC.Footprint Path|TableNameOnly=IC_ADC_DAC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=IC_LDO.Library Ref|TableNameOnly=IC_LDO|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Interface.Код|TableNameOnly=IC_Interface|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap45]
-Options=FieldName=IC_LDO.Library Path|TableNameOnly=IC_LDO|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Interface.Library Ref|TableNameOnly=IC_Interface|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap46]
-Options=FieldName=IC_LDO.Footprint Ref|TableNameOnly=IC_LDO|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Interface.Library Path|TableNameOnly=IC_Interface|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap47]
-Options=FieldName=IC_LDO.Footprint Path|TableNameOnly=IC_LDO|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Interface.Footprint Ref|TableNameOnly=IC_Interface|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap48]
-Options=FieldName=IC_Logic.Код|TableNameOnly=IC_Logic|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Interface.Footprint Path|TableNameOnly=IC_Interface|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap49]
-Options=FieldName=IC_Logic.Library Ref|TableNameOnly=IC_Logic|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_LDO.Код|TableNameOnly=IC_LDO|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap50]
-Options=FieldName=IC_Logic.Library Path|TableNameOnly=IC_Logic|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_LDO.Library Ref|TableNameOnly=IC_LDO|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=IC_Logic.Footprint Ref|TableNameOnly=IC_Logic|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_LDO.Library Path|TableNameOnly=IC_LDO|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap52]
-Options=FieldName=IC_Logic.Footprint Path|TableNameOnly=IC_Logic|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_LDO.Footprint Ref|TableNameOnly=IC_LDO|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap53]
-Options=FieldName=IC_MCU.Код|TableNameOnly=IC_MCU|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_LDO.Footprint Path|TableNameOnly=IC_LDO|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap54]
-Options=FieldName=IC_MCU.Library Ref|TableNameOnly=IC_MCU|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Logic.Код|TableNameOnly=IC_Logic|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap55]
-Options=FieldName=IC_MCU.Library Path|TableNameOnly=IC_MCU|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Logic.Library Ref|TableNameOnly=IC_Logic|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap56]
-Options=FieldName=IC_MCU.Footprint Ref|TableNameOnly=IC_MCU|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Logic.Library Path|TableNameOnly=IC_Logic|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap57]
-Options=FieldName=IC_MCU.Footprint Path|TableNameOnly=IC_MCU|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Logic.Footprint Ref|TableNameOnly=IC_Logic|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=IC_Memory.Код|TableNameOnly=IC_Memory|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Logic.Footprint Path|TableNameOnly=IC_Logic|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap59]
-Options=FieldName=IC_Memory.Library Ref|TableNameOnly=IC_Memory|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_MCU.Код|TableNameOnly=IC_MCU|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap60]
-Options=FieldName=IC_Memory.Library Path|TableNameOnly=IC_Memory|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_MCU.Library Ref|TableNameOnly=IC_MCU|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap61]
-Options=FieldName=IC_Memory.Footprint Ref|TableNameOnly=IC_Memory|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_MCU.Library Path|TableNameOnly=IC_MCU|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap62]
-Options=FieldName=IC_Memory.Footprint Path|TableNameOnly=IC_Memory|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_MCU.Footprint Ref|TableNameOnly=IC_MCU|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap63]
-Options=FieldName=IC_Opamp.Код|TableNameOnly=IC_Opamp|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_MCU.Footprint Path|TableNameOnly=IC_MCU|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap64]
-Options=FieldName=IC_Opamp.Library Ref|TableNameOnly=IC_Opamp|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Memory.Код|TableNameOnly=IC_Memory|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=IC_Opamp.Library Path|TableNameOnly=IC_Opamp|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Memory.Library Ref|TableNameOnly=IC_Memory|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap66]
-Options=FieldName=IC_Opamp.Footprint Ref|TableNameOnly=IC_Opamp|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Memory.Library Path|TableNameOnly=IC_Memory|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap67]
-Options=FieldName=IC_Opamp.Footprint Path|TableNameOnly=IC_Opamp|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Memory.Footprint Ref|TableNameOnly=IC_Memory|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap68]
-Options=FieldName=IC_PWR.Код|TableNameOnly=IC_PWR|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Memory.Footprint Path|TableNameOnly=IC_Memory|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap69]
-Options=FieldName=IC_PWR.Library Ref|TableNameOnly=IC_PWR|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Opamp.Код|TableNameOnly=IC_Opamp|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap70]
-Options=FieldName=IC_PWR.Library Path|TableNameOnly=IC_PWR|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Opamp.Library Ref|TableNameOnly=IC_Opamp|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap71]
-Options=FieldName=IC_PWR.Footprint Ref|TableNameOnly=IC_PWR|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Opamp.Library Path|TableNameOnly=IC_Opamp|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap72]
-Options=FieldName=IC_PWR.Footprint Path|TableNameOnly=IC_PWR|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Opamp.Footprint Ref|TableNameOnly=IC_Opamp|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap73]
-Options=FieldName=IC_PWR.Description|TableNameOnly=IC_PWR|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Opamp.Footprint Path|TableNameOnly=IC_Opamp|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap74]
-Options=FieldName=IC_Sensors.Код|TableNameOnly=IC_Sensors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_PWR.Код|TableNameOnly=IC_PWR|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap75]
-Options=FieldName=IC_Sensors.Library Ref|TableNameOnly=IC_Sensors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_PWR.Library Ref|TableNameOnly=IC_PWR|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap76]
-Options=FieldName=IC_Sensors.Library Path|TableNameOnly=IC_Sensors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_PWR.Library Path|TableNameOnly=IC_PWR|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap77]
-Options=FieldName=IC_Sensors.Footprint Ref|TableNameOnly=IC_Sensors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_PWR.Footprint Ref|TableNameOnly=IC_PWR|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap78]
-Options=FieldName=IC_Sensors.Footprint Path|TableNameOnly=IC_Sensors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_PWR.Footprint Path|TableNameOnly=IC_PWR|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
-Options=FieldName=IC_Sensors.Description|TableNameOnly=IC_Sensors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_PWR.Description|TableNameOnly=IC_PWR|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
-Options=FieldName=Inductors.Library Ref|TableNameOnly=Inductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Sensors.Код|TableNameOnly=IC_Sensors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=Inductors.Library Path|TableNameOnly=Inductors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Sensors.Library Ref|TableNameOnly=IC_Sensors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap82]
-Options=FieldName=Inductors.Footprint Ref|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Sensors.Library Path|TableNameOnly=IC_Sensors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap83]
-Options=FieldName=Inductors.Footprint Path|TableNameOnly=Inductors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Sensors.Footprint Ref|TableNameOnly=IC_Sensors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap84]
-Options=FieldName=Inductors.Код|TableNameOnly=Inductors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Sensors.Footprint Path|TableNameOnly=IC_Sensors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap85]
-Options=FieldName=Misc.Library Ref|TableNameOnly=Misc|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC_Sensors.Description|TableNameOnly=IC_Sensors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap86]
-Options=FieldName=Misc.Library Path|TableNameOnly=Misc|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Library Ref|TableNameOnly=Inductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap87]
-Options=FieldName=Misc.Footprint Ref|TableNameOnly=Misc|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Library Path|TableNameOnly=Inductors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap88]
-Options=FieldName=Misc.Footprint Path|TableNameOnly=Misc|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Ref|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap89]
-Options=FieldName=Misc.Код|TableNameOnly=Misc|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Path|TableNameOnly=Inductors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap90]
-Options=FieldName=Modules.Library Ref|TableNameOnly=Modules|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Код|TableNameOnly=Inductors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap91]
-Options=FieldName=Modules.Library Path|TableNameOnly=Modules|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc.Library Ref|TableNameOnly=Misc|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap92]
-Options=FieldName=Modules.Footprint Ref|TableNameOnly=Modules|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc.Library Path|TableNameOnly=Misc|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap93]
-Options=FieldName=Modules.Footprint Path|TableNameOnly=Modules|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc.Footprint Ref|TableNameOnly=Misc|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap94]
-Options=FieldName=Modules.Код|TableNameOnly=Modules|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc.Footprint Path|TableNameOnly=Misc|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap95]
-Options=FieldName=Optoelectronics.Library Ref|TableNameOnly=Optoelectronics|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Misc.Код|TableNameOnly=Misc|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap96]
-Options=FieldName=Optoelectronics.Library Path|TableNameOnly=Optoelectronics|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules.Library Ref|TableNameOnly=Modules|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap97]
-Options=FieldName=Optoelectronics.Footprint Ref|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules.Library Path|TableNameOnly=Modules|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap98]
-Options=FieldName=Optoelectronics.Footprint Path|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules.Footprint Ref|TableNameOnly=Modules|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap99]
-Options=FieldName=Optoelectronics.Код|TableNameOnly=Optoelectronics|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules.Footprint Path|TableNameOnly=Modules|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap100]
-Options=FieldName=Res_0402_1%.Код|TableNameOnly=Res_0402_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Modules.Код|TableNameOnly=Modules|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap101]
-Options=FieldName=Res_0402_1%.Library Ref|TableNameOnly=Res_0402_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Library Ref|TableNameOnly=Optoelectronics|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap102]
-Options=FieldName=Res_0402_1%.Library Path|TableNameOnly=Res_0402_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Library Path|TableNameOnly=Optoelectronics|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap103]
-Options=FieldName=Res_0402_1%.Footprint Ref|TableNameOnly=Res_0402_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Ref|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap104]
-Options=FieldName=Res_0402_1%.Footprint Path|TableNameOnly=Res_0402_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Path|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap105]
-Options=FieldName=Res_0402_1%.PCB3D Ref|TableNameOnly=Res_0402_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Код|TableNameOnly=Optoelectronics|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap106]
-Options=FieldName=Res_0402_1%.PCB3D Path|TableNameOnly=Res_0402_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.Код|TableNameOnly=Res_0402_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap107]
-Options=FieldName=Res_0402_1%.Description|TableNameOnly=Res_0402_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.Library Ref|TableNameOnly=Res_0402_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap108]
-Options=FieldName=Res_0402_5%.Код|TableNameOnly=Res_0402_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.Library Path|TableNameOnly=Res_0402_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap109]
-Options=FieldName=Res_0402_5%.Library Ref|TableNameOnly=Res_0402_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.Footprint Ref|TableNameOnly=Res_0402_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap110]
-Options=FieldName=Res_0402_5%.Library Path|TableNameOnly=Res_0402_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.Footprint Path|TableNameOnly=Res_0402_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap111]
-Options=FieldName=Res_0402_5%.Footprint Ref|TableNameOnly=Res_0402_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.PCB3D Ref|TableNameOnly=Res_0402_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap112]
-Options=FieldName=Res_0402_5%.Footprint Path|TableNameOnly=Res_0402_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.PCB3D Path|TableNameOnly=Res_0402_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap113]
-Options=FieldName=Res_0402_5%.PCB3D Ref|TableNameOnly=Res_0402_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_1%.Description|TableNameOnly=Res_0402_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap114]
-Options=FieldName=Res_0402_5%.PCB3D Path|TableNameOnly=Res_0402_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.Код|TableNameOnly=Res_0402_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap115]
-Options=FieldName=Res_0402_5%.Description|TableNameOnly=Res_0402_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.Library Ref|TableNameOnly=Res_0402_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap116]
-Options=FieldName=Res_0603_1%.Код|TableNameOnly=Res_0603_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.Library Path|TableNameOnly=Res_0402_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap117]
-Options=FieldName=Res_0603_1%.Library Ref|TableNameOnly=Res_0603_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.Footprint Ref|TableNameOnly=Res_0402_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap118]
-Options=FieldName=Res_0603_1%.Library Path|TableNameOnly=Res_0603_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.Footprint Path|TableNameOnly=Res_0402_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap119]
-Options=FieldName=Res_0603_1%.Footprint Ref|TableNameOnly=Res_0603_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.PCB3D Ref|TableNameOnly=Res_0402_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap120]
-Options=FieldName=Res_0603_1%.Footprint Path|TableNameOnly=Res_0603_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.PCB3D Path|TableNameOnly=Res_0402_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap121]
-Options=FieldName=Res_0603_1%.PCB3D Ref|TableNameOnly=Res_0603_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0402_5%.Description|TableNameOnly=Res_0402_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap122]
-Options=FieldName=Res_0603_1%.PCB3D Path|TableNameOnly=Res_0603_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.Код|TableNameOnly=Res_0603_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap123]
-Options=FieldName=Res_0603_1%.Description|TableNameOnly=Res_0603_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.Library Ref|TableNameOnly=Res_0603_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap124]
-Options=FieldName=Res_0603_5%.Код|TableNameOnly=Res_0603_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.Library Path|TableNameOnly=Res_0603_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap125]
-Options=FieldName=Res_0603_5%.Library Ref|TableNameOnly=Res_0603_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.Footprint Ref|TableNameOnly=Res_0603_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap126]
-Options=FieldName=Res_0603_5%.Library Path|TableNameOnly=Res_0603_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.Footprint Path|TableNameOnly=Res_0603_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap127]
-Options=FieldName=Res_0603_5%.Footprint Ref|TableNameOnly=Res_0603_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.PCB3D Ref|TableNameOnly=Res_0603_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap128]
-Options=FieldName=Res_0603_5%.Footprint Path|TableNameOnly=Res_0603_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.PCB3D Path|TableNameOnly=Res_0603_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap129]
-Options=FieldName=Res_0603_5%.PCB3D Ref|TableNameOnly=Res_0603_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_1%.Description|TableNameOnly=Res_0603_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap130]
-Options=FieldName=Res_0603_5%.PCB3D Path|TableNameOnly=Res_0603_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.Код|TableNameOnly=Res_0603_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap131]
-Options=FieldName=Res_0603_5%.Description|TableNameOnly=Res_0603_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.Library Ref|TableNameOnly=Res_0603_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap132]
-Options=FieldName=Res_0805_1%.Код|TableNameOnly=Res_0805_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.Library Path|TableNameOnly=Res_0603_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap133]
-Options=FieldName=Res_0805_1%.Library Ref|TableNameOnly=Res_0805_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.Footprint Ref|TableNameOnly=Res_0603_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap134]
-Options=FieldName=Res_0805_1%.Library Path|TableNameOnly=Res_0805_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.Footprint Path|TableNameOnly=Res_0603_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap135]
-Options=FieldName=Res_0805_1%.Footprint Ref|TableNameOnly=Res_0805_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.PCB3D Ref|TableNameOnly=Res_0603_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap136]
-Options=FieldName=Res_0805_1%.Footprint Path|TableNameOnly=Res_0805_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.PCB3D Path|TableNameOnly=Res_0603_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap137]
-Options=FieldName=Res_0805_1%.PCB3D Ref|TableNameOnly=Res_0805_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0603_5%.Description|TableNameOnly=Res_0603_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap138]
-Options=FieldName=Res_0805_1%.PCB3D Path|TableNameOnly=Res_0805_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.Код|TableNameOnly=Res_0805_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap139]
-Options=FieldName=Res_0805_1%.Description|TableNameOnly=Res_0805_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.Library Ref|TableNameOnly=Res_0805_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap140]
-Options=FieldName=Res_0805_5%.Код|TableNameOnly=Res_0805_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.Library Path|TableNameOnly=Res_0805_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap141]
-Options=FieldName=Res_0805_5%.Library Ref|TableNameOnly=Res_0805_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.Footprint Ref|TableNameOnly=Res_0805_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap142]
-Options=FieldName=Res_0805_5%.Library Path|TableNameOnly=Res_0805_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.Footprint Path|TableNameOnly=Res_0805_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap143]
-Options=FieldName=Res_0805_5%.Footprint Ref|TableNameOnly=Res_0805_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.PCB3D Ref|TableNameOnly=Res_0805_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap144]
-Options=FieldName=Res_0805_5%.Footprint Path|TableNameOnly=Res_0805_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.PCB3D Path|TableNameOnly=Res_0805_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap145]
-Options=FieldName=Res_0805_5%.PCB3D Ref|TableNameOnly=Res_0805_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_1%.Description|TableNameOnly=Res_0805_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap146]
-Options=FieldName=Res_0805_5%.PCB3D Path|TableNameOnly=Res_0805_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.Код|TableNameOnly=Res_0805_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap147]
-Options=FieldName=Res_0805_5%.Description|TableNameOnly=Res_0805_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.Library Ref|TableNameOnly=Res_0805_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap148]
-Options=FieldName=Res_1206_1%.Код|TableNameOnly=Res_1206_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.Library Path|TableNameOnly=Res_0805_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap149]
-Options=FieldName=Res_1206_1%.Library Ref|TableNameOnly=Res_1206_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.Footprint Ref|TableNameOnly=Res_0805_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap150]
-Options=FieldName=Res_1206_1%.Library Path|TableNameOnly=Res_1206_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.Footprint Path|TableNameOnly=Res_0805_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap151]
-Options=FieldName=Res_1206_1%.Footprint Ref|TableNameOnly=Res_1206_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.PCB3D Ref|TableNameOnly=Res_0805_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap152]
-Options=FieldName=Res_1206_1%.Footprint Path|TableNameOnly=Res_1206_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.PCB3D Path|TableNameOnly=Res_0805_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap153]
-Options=FieldName=Res_1206_1%.PCB3D Ref|TableNameOnly=Res_1206_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_0805_5%.Description|TableNameOnly=Res_0805_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap154]
-Options=FieldName=Res_1206_1%.PCB3D Path|TableNameOnly=Res_1206_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.Код|TableNameOnly=Res_1206_1%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap155]
-Options=FieldName=Res_1206_1%.Description|TableNameOnly=Res_1206_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.Library Ref|TableNameOnly=Res_1206_1%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap156]
-Options=FieldName=Res_1206_5%.Код|TableNameOnly=Res_1206_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.Library Path|TableNameOnly=Res_1206_1%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap157]
-Options=FieldName=Res_1206_5%.Library Ref|TableNameOnly=Res_1206_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.Footprint Ref|TableNameOnly=Res_1206_1%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap158]
-Options=FieldName=Res_1206_5%.Library Path|TableNameOnly=Res_1206_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.Footprint Path|TableNameOnly=Res_1206_1%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap159]
-Options=FieldName=Res_1206_5%.Footprint Ref|TableNameOnly=Res_1206_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.PCB3D Ref|TableNameOnly=Res_1206_1%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap160]
-Options=FieldName=Res_1206_5%.Footprint Path|TableNameOnly=Res_1206_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.PCB3D Path|TableNameOnly=Res_1206_1%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap161]
-Options=FieldName=Res_1206_5%.PCB3D Ref|TableNameOnly=Res_1206_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_1%.Description|TableNameOnly=Res_1206_1%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap162]
-Options=FieldName=Res_1206_5%.PCB3D Path|TableNameOnly=Res_1206_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.Код|TableNameOnly=Res_1206_5%|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap163]
-Options=FieldName=Res_1206_5%.Description|TableNameOnly=Res_1206_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.Library Ref|TableNameOnly=Res_1206_5%|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap164]
-Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.Library Path|TableNameOnly=Res_1206_5%|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap165]
-Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.Footprint Ref|TableNameOnly=Res_1206_5%|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap166]
-Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.Footprint Path|TableNameOnly=Res_1206_5%|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap167]
-Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.PCB3D Ref|TableNameOnly=Res_1206_5%|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap168]
-Options=FieldName=Resistors.ValueSCH|TableNameOnly=Resistors|FieldNameOnly=ValueSCH|FieldType=1|ParameterName=ValueSCH|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.PCB3D Path|TableNameOnly=Res_1206_5%|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap169]
-Options=FieldName=Resistors.Код|TableNameOnly=Resistors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Res_1206_5%.Description|TableNameOnly=Res_1206_5%|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap170]
-Options=FieldName=Transformers.Код|TableNameOnly=Transformers|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap171]
-Options=FieldName=Transformers.Library Ref|TableNameOnly=Transformers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap172]
-Options=FieldName=Transformers.Library Path|TableNameOnly=Transformers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap173]
-Options=FieldName=Transformers.Footprint Ref|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap174]
-Options=FieldName=Transformers.Footprint Path|TableNameOnly=Transformers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.ValueSCH|TableNameOnly=Resistors|FieldNameOnly=ValueSCH|FieldType=1|ParameterName=ValueSCH|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap175]
-Options=FieldName=Transistors.Library Ref|TableNameOnly=Transistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors.Код|TableNameOnly=Resistors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap176]
-Options=FieldName=Transistors.Library Path|TableNameOnly=Transistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Код|TableNameOnly=Transformers|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap177]
-Options=FieldName=Transistors.Footprint Ref|TableNameOnly=Transistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Library Ref|TableNameOnly=Transformers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap178]
-Options=FieldName=Transistors.Footprint Path|TableNameOnly=Transistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Library Path|TableNameOnly=Transformers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap179]
-Options=FieldName=Transistors.Description|TableNameOnly=Transistors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Transformers.Footprint Ref|TableNameOnly=Transformers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap180]
+Options=FieldName=Transformers.Footprint Path|TableNameOnly=Transformers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap181]
+Options=FieldName=Transistors.Library Ref|TableNameOnly=Transistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap182]
+Options=FieldName=Transistors.Library Path|TableNameOnly=Transistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap183]
+Options=FieldName=Transistors.Footprint Ref|TableNameOnly=Transistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap184]
+Options=FieldName=Transistors.Footprint Path|TableNameOnly=Transistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap185]
+Options=FieldName=Transistors.Description|TableNameOnly=Transistors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap186]
 Options=FieldName=Transistors.Код|TableNameOnly=Transistors|FieldNameOnly=Код|FieldType=0|ParameterName=Код|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
