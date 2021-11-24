@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Buttons_Switches
+LastFocusedTable=IC_ADC_DAC
 [Table1]
 SchemaName=
 TableName=Buttons_Switches
@@ -80,6 +80,9 @@ TableName=IC_ADC_DAC
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Library Path0=156|Footprint Ref0=113|Footprint Path0=131|ID0=34|Alias0=82|PartNumber0=84|Analog0=60|Manufacturer0=130|Type0=57|Channels0=71|Resolution0=79|ComponentLink1URL0=131|ComponentLink1Description0=170|Mode0=53
 [Table11]
 SchemaName=
 TableName=IC_Interface
